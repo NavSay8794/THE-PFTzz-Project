@@ -1,0 +1,86 @@
+:root{
+	font-size: 16px
+}
+
+.container-fluid{
+	height: 80vw;
+}
+
+
+.navbar{
+	background-color: #eeeeee!important;
+	/*here ! important gives this color importance more over the predefined color
+	*/
+}
+
+.navbar-nav > li{
+  margin-left:2px;
+  margin-right:1px;
+}
+
+
+.navbar-brand{
+	color: #00bbff!important;
+	font-weight: 800;
+	font-size: 1.5rem;
+	padding-bottom: 0.4rem;
+	/*font-family: 'Saira Stencil One', cursive;*/
+	font-weight: 800;
+	font-family: 'Lacquer', sans-serif;
+	/*font-family: 'Dancing Script', cursive; */
+}
+
+.btn-outline-success{
+	color: #2c2c2c;
+}
+
+.my-image{
+	background-image: url("image4.jpg");
+	background-color: #cccccc;
+	height: 40vw;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.text{
+	  
+	  position: absolute;
+	  top: 75%;
+	  left: 50%;
+	  font-family: 'Saira Stencil One', cursive;
+	  font-size: 1.5rem;
+	  transform: translate(-50%, -50%);
+	  text-transform: capitalize;
+	  color: white;
+	}
+
+/*.space{
+	padding: 5px;
+}
+
+.row-space{
+	margin-left: 5%;
+
+}*/
+
+#heights{
+	height:10vh;
+	border-bottom: 1px solid #000000;
+}
+
+#face{
+	text-align: center
+}
+
+@media screen and (max-width: 768px){
+	.text{
+		top: 60%;
+		font-size: 1.5rem;
+	}
+
+	.container-fluid{
+		align-content: center;
+	}
+}
